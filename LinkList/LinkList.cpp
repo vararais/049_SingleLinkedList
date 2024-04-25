@@ -45,6 +45,9 @@ void addNode() {
         previous = current;
         current = current->next;
     }
+
+    nodeBaru->next = current;
+    previous->next = nodeBaru;
 }
 int main()
 {
