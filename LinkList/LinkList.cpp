@@ -73,8 +73,8 @@ bool serachNode(int nim, Node* current, Node* previous) {
     }
 }
 
-bool deleteNode(int nim) {
-
+bool deleteNode(int nim, Node* current, Node* previous) {
+    
 }
 int main()
 {
